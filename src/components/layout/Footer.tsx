@@ -81,7 +81,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row justify-between gap-2 text-xs text-primary-foreground/50">
-          <p>© 2026 SAPTHA Expeditions. All rights reserved.</p>
+          <p>© 2026 SAPTHA Expeditions. All rights reserved. | CodiGo | Sarath Suresh C</p>
           <p>Crafted with ✦ for curious wanderers.</p>
         </div>
       </div>
