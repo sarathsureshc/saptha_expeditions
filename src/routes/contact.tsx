@@ -38,10 +38,10 @@ function ContactPage() {
             <h2 className="font-display text-2xl font-bold">Send us a message</h2>
             <p className="mt-1 text-sm text-muted-foreground">Tell us what you're dreaming up — we'll handle the rest.</p>
             <div className="mt-6 grid sm:grid-cols-2 gap-4">
-              <Input label="Your Name" placeholder="Jane Doe" required />
-              <Input label="Phone" type="tel" placeholder="+91 98765 43210" required />
-              <Input label="Email" type="email" placeholder="jane@example.com" required />
-              <Input label="Destination" placeholder="Bali / Kashmir / Anywhere…" />
+              <Input label="Your Name" placeholder="Enter your name" required />
+              <Input label="Phone" type="tel" placeholder="Enter your phone number" required />
+              <Input label="Email" type="email" placeholder="Enter your email address" required />
+              <Input label="Destination" placeholder="Enter your destination" />
               <div className="sm:col-span-2">
                 <label className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">Your Message</label>
                 <textarea rows={5} placeholder="Tell us about your trip — dates, group size, vibe, budget…" required
